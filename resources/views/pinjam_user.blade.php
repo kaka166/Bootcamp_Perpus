@@ -15,7 +15,7 @@
                         <th>Penerbit</th>
                         <th>Penulis</th>
                         <th>Tahun Terbit</th>
-                        <th>Stauts</th>
+                        <th>Status</th>
                         <th>Gambar</th>
                     </tr>
                 </thead>
@@ -28,7 +28,7 @@
                         <td>{{ $row->penerbit }}</td>
                         <td>{{ $row->penulis }}</td>
                         <td>{{ $row->tahun_terbit }}</td>
-                        <td>{{ $row->status }}</td>
+                        <td>Sedang Dipinjamkan</td>
                         <td>
                             <img src="{{ asset('fotobuku/'.$row->gambar) }}" alt="" style="width: 100px;">
                         </td>

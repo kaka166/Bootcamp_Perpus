@@ -78,7 +78,7 @@
                     </div>
                     <div class="form-group">
                         <label>Status</label>
-                        <input type="text" value="tersedia" class="form-control" name="status" id="tersedia" placeholder="Status" readonly>
+                        <input type="text" value="Tersedia" class="form-control" name="status" id="tersedia" placeholder="Status" readonly>
                     </div>
                     <div class="form-group">
                         <label>Gambar</label>
